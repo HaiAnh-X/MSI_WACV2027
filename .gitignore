@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / C-extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Checkpoints, Model Weights & Large Binaries
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+*.safetensors
+*.tar
+*.gz
+*.zip
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.bin
+checkpoints/*.ckpt
+*/checkpoints/*.pt
+*/checkpoints/*.pth
+*/checkpoints/*.bin
+*/checkpoints/*.ckpt
+
+# Datasets, Predictions & Logs
+benchmark_eval/
+results/
+*.out
+*.err
+*.log
+*.mp4
+*.avi
+*.mov
+
+# Environment & IDEs
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
